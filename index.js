@@ -14,7 +14,7 @@ const path = require("path");
 // OpenAI API key: preferably set OPENAI_API_KEY in GitHub Actions/Railway environment.
 // For quick local testing only, you may paste your key into the fallback below.
 // Never commit a real API key to a repository, even if it is private.
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY || "PASTE_OPENAI_API_KEY_HERE";
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY || "‎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";
 const OPENAI_MODEL = process.env.OPENAI_MODEL || "gpt-4.1-mini";
 
 async function askOpenAI(question, username) {
